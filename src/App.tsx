@@ -5,34 +5,34 @@ import './App.css';
 
 function App() {
   // TypeScript to add scroll animations
-  document.addEventListener('DOMContentLoaded', function() {
-    const items = document.querySelectorAll('.timeline .container') as NodeListOf<HTMLElement>;
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   const items = document.querySelectorAll('.timeline .container') as NodeListOf<HTMLElement>;
   
-    const isInViewport = (el: HTMLElement): boolean => {
-      const rect = el.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    };
+  //   const isInViewport = (el: HTMLElement): boolean => {
+  //     const rect = el.getBoundingClientRect();
+  //     return (
+  //       rect.top >= 0 &&
+  //       rect.left >= 0 &&
+  //       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+  //       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  //     );
+  //   };
   
-    const run = () => {
-      items.forEach(item => {
-        if (isInViewport(item)) {
-          item.classList.add('show');
-        } else {
-          item.classList.remove('show');
-        }
-      });
-    };
+  //   const run = () => {
+  //     items.forEach(item => {
+  //       if (isInViewport(item)) {
+  //         item.classList.add('show');
+  //       } else {
+  //         item.classList.remove('show');
+  //       }
+  //     });
+  //   };
   
-    // Run the function on load and scroll
-    window.addEventListener('load', run);
-    window.addEventListener('resize', run);
-    window.addEventListener('scroll', run);
-  });
+  //   // Run the function on load and scroll
+  //   window.addEventListener('load', run);
+  //   window.addEventListener('resize', run);
+  //   window.addEventListener('scroll', run);
+  // });
   
   return (
     <div className="App">
@@ -65,53 +65,68 @@ scalability.</p>
       </header>
       <main className="App-main">
       <div className="timeline">
-    <div className="left">
+    <div className="container left">
+    <img src="./work.png" alt="work iocon" />
       <div className="content">
-        <h2>2018</h2>
+        <h2>Honeywell</h2>
+        <small>2018</small>
         <p>Started my career at XYZ Company as a Junior Developer. Worked on various frontend and backend tasks.</p>
+        <span className='left-arrow'></span>
       </div>
     </div>
-    <div className="right">
+    <div className=" container right">
+    <img src="./work.png" alt="work iocon" />
       <div className="content">
         <h2>2019</h2>
         <p>Promoted to Developer at XYZ Company. Led a team to develop a web application that increased user engagement by 20%.</p>
+        <span className='right-arrow'></span>
       </div>
     </div>
-    <div className="left">
+    <div className="container left">
+    <img src="./project.png" alt="project iocon" />
       <div className="content">
         <h2>2020</h2>
         <p>Joined ABC Corp as a Senior Developer. Worked on cloud-based solutions and microservices architecture.</p>
+        <span className='left-arrow'></span>
       </div>
     </div>
-    <div className="right">
+    <div className="container right">
+    <img src="./project.png" alt="project iocon" />
       <div className="content">
         <h2>2021</h2>
         <p>Started a major project on AI and machine learning which resulted in a successful product launch.</p>
+        <span className='right-arrow'></span>
       </div>
     </div>
-    <div className="left">
+    <div className="container left">
+    <img src="./project.png" alt="project iocon" />
       <div className="content">
         <h2>2022</h2>
         <p>Worked on improving the performance of legacy systems, reducing the load time by 30%.</p>
+        <span className='left-arrow'></span>
       </div>
     </div>
-    <div className="right">
+    <div className="container right">
+    <img src="./project.png" alt="project iocon" />
       <div className="content">
         <h2>2023</h2>
         <p>Joined DEF Inc as a Lead Developer. Focused on innovative solutions and team leadership.</p>
+        <span className='right-arrow'></span>
       </div>
     </div>
-    <div className="left">
+    <div className="container left">
+    <img src="./project.png" alt="project iocon" />
       <div className="content">
         <h2>2024</h2>
         <p>Continuing my journey at DEF Inc, working on cutting-edge technologies and mentoring junior developers.</p>
+        <span className='left-arrow'></span>
       </div>
     </div>
   </div>
 
       </main>
       <footer className="App-footer"><h1>Footer</h1>
-      
+      <a href="https://www.flaticon.com/free-icons/office" title="office icons">Office icons created by egorpolyakov - Flaticon</a>
       </footer>
     </div>
   );
