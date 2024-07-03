@@ -1,52 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-
+import  Navbar from './Navbar'
+import Footer from './Footer';
 function App() {
-  // TypeScript to add scroll animations
-  // document.addEventListener('DOMContentLoaded', function() {
-  //   const items = document.querySelectorAll('.timeline .container') as NodeListOf<HTMLElement>;
-  
-  //   const isInViewport = (el: HTMLElement): boolean => {
-  //     const rect = el.getBoundingClientRect();
-  //     return (
-  //       rect.top >= 0 &&
-  //       rect.left >= 0 &&
-  //       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-  //       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  //     );
-  //   };
-  
-  //   const run = () => {
-  //     items.forEach(item => {
-  //       if (isInViewport(item)) {
-  //         item.classList.add('show');
-  //       } else {
-  //         item.classList.remove('show');
-  //       }
-  //     });
-  //   };
-  
-  //   // Run the function on load and scroll
-  //   window.addEventListener('load', run);
-  //   window.addEventListener('resize', run);
-  //   window.addEventListener('scroll', run);
-  // });
-  
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
-<nav aria-label="Main Navigation">
-        <ul className="nav-list">
-            <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
-            <li className="nav-item"><a href="#experience" className="nav-link">Experience</a></li>
-            <li className="nav-item"><a href="#project" className="nav-link">Projects</a></li>
-            <li className="nav-item"><a href="#contact" className="nav-link">Design Info</a></li>
-            <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
-            <li className="nav-item"><a href="#address" className="nav-link">Address</a></li>
-        </ul>
-    </nav>
     <div className="profile-picture">
         <img src="./profile.jpeg" className="profile-img" alt="Profile Picture"></img>   
     </div>
@@ -144,26 +104,7 @@ function App() {
     </div>
   </div>
       </main>
-      <footer className="App-footer">
-        <div id='contact'>
-        <h3>Contact</h3>
-        <h5>Nikhil Gangisetty</h5>
-        <a href="mailto:gangietty.nikhil@gmail.com" title="send email">gangietty.nikhil@gmail.com</a>
-        <p>+1 913-709-9391</p>
-        </div>
-        <div id='address'>
-          <h3>Address</h3>
-          <p>301 W Armour blvd</p>
-          <p>Kansas City, MO</p>
-        </div>
-        <div>
-        <p className='copyright'>&copy; <span id="currentYear"></span> Nikhil Gangisetty. All rights reserved.| <a href="https://www.flaticon.com/" title="icons" className='credit'>Credits</a>
-        </p>
-        </div>
-        <script>
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-    </script>
-      </footer>
+      <Footer />
     </div>
   );
 }
