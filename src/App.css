@@ -9,7 +9,7 @@
   text-align: center;
   display: grid;
   grid-template-rows: auto auto; /* Define two rows */
-  grid-gap: 10px;
+  /*grid-gap: 10px; */
 }
 
 .App-header {
@@ -20,7 +20,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-main {
+  background-color:#F5F5F5;
+  z-index: -2;
+}
 nav {
   background-color: var(--background-color);
 }
@@ -103,9 +106,9 @@ nav {
 .content{
   position: relative;
   padding: 15px 30px;
-  background: blanchedalmond;
+  background: #FAC5B2;
   border-radius: 25px;
-  font-size: 15px;
+  font-size: 17px;
   text-align: left;
 }
 .container {
@@ -143,6 +146,12 @@ nav {
 .container:nth-child(7){
   animation-delay: 6s;
 }
+.container:nth-child(8){
+  animation-delay: 7s;
+}
+.container:nth-child(9){
+  animation-delay: 8s;
+}
 .left {
   left: 0;
 }
@@ -160,7 +169,7 @@ left: 55%;
   top: 32px;
   z-index: 10;
   border-color: #282c34;
-  background-color: aqua;
+  background-color: #04F06A;
 }
 .right img{
   left: -20px;
@@ -173,7 +182,7 @@ left: 55%;
   height: 100%;
   top: 0;
   left: 54%;
-  background: aqua;
+  background: #04F06A;
   z-index: -1;
   margin-left: 4px;
   animation: moveline 6s linear forwards;
@@ -203,7 +212,7 @@ left: 55%;
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid blanchedalmond;
+  border-left: 15px solid #FAC5B2;
   right: -8px;
 }
 .right-arrow {
@@ -214,10 +223,9 @@ left: 55%;
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid blanchedalmond;
+  border-right: 15px solid #FAC5B2;
   left: -8px;
 }
-
 
 .App-footer {
   background-color: #282c34;
@@ -236,8 +244,6 @@ left: 55%;
   text-align: left;
   font-size: calc(5px + 2vmin);
 }
-
-
 
 .copyright {
   top: 86%;
