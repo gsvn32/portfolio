@@ -1,0 +1,17 @@
+.footer {
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+.footer a {
+    color: white;
+    font-size: calc(5px + 2vmin);
+  }
+.footer div {
+    padding: 20px 30px;
+    color: white;
+    text-align: left;
+    font-size: calc(5px + 2vmin);
+  }

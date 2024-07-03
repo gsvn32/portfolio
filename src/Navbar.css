@@ -1,0 +1,47 @@
+/* Styles for the navbar */
+.navbar {
+    width: 100%; /* Full width */
+    background-color: var(--background-color); /* Background color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Padding */
+    transition: position 0.3s;
+}
+.navbar.fixed {
+    position: fixed; /* Fix the position when scrolled */
+    top: 0; /* Align to the top */
+    z-index: 1000; /* Ensure it stays on top */
+}
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 10px 15px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .nav-link:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 4px;
+  }
+  
+  .nav-link:hover,
+  .nav-link:active {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+
