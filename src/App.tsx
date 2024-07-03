@@ -51,85 +51,121 @@ function App() {
     </div>
     <h3 className='heading-name'> VENKATA NIKHIL GANGISETTY </h3>
       <section className="heading-name">
-      
-      <p>Full-Stack Development: Proficient in Frontend development (HTML, Cascading Style Sheets (CSS), React) and
-back-end frameworks (Spring Boot, Java).
-• Experience in developing and managing databases, including Oracle PL/SQL, MySQL, and MongoDB.
-• Version Control & Collaboration: Extensive experience using Git for version control system and collaboration on
-software projects.
-• Problem-Solving & Debugging: Demonstrated ability in identifying and solving complex production problems
-efficiently.
-• Security & Performance Optimization: Focus on building secure applications with optimized performance and
-scalability.</p>
+      <p> A full-stack developer with a Master's in Computer Science and experience at Honeywell. I excel in UI/UX design, web accessibility (WCAG), and coding in HTML, CSS, JavaScript, and Drupal. My certifications in User Experience Design, Accessibility (WCAG 2.2), and Drupal module development complement my practical experience</p>
     </section>
       </header>
       <main className="App-main">
       <div className="timeline">
+      <div className="container left">
+    <img src="./education.png" alt="university icon" />
+      <div className="content">
+        <h2>University of Missouri - Kansas City</h2>
+        <small>2023-2024: Master of Science in Computer Science </small>
+        <p>GPA: 3.8/4.0, Relevent Coursework in Distributed Computing, Advanced operating systems, Design and Analysis of Algorithms, Network
+        Architecture</p>
+        <span className='left-arrow'></span>
+      </div>
+    </div>
+      <div className="container right">
+    <img src="./work.png" alt="work icon" />
+      <div className="content">
+        <h2>UMKC ACED</h2>
+        <small>2024</small>
+        <p>Maintained and troubleshooted classroom computers, ensuring smooth operations under challenging conditions. Provided warm and caring instruction to students with various mental and physical disabilities. Praised for problem-solving skills, hard work, and a positive attitude in a dynamic educational environment.</p>
+        <span className='left-arrow'></span>
+      </div>
+    </div>
     <div className="container left">
-    <img src="./work.png" alt="work iocon" />
+    <img src="./work.png" alt="work icon" />
       <div className="content">
         <h2>Honeywell</h2>
-        <small>2018</small>
-        <p>Started my career at XYZ Company as a Junior Developer. Worked on various frontend and backend tasks.</p>
+        <small>2019-2022</small>
+        <p>As a Sr. Software Engineer at Honeywell (June 2019 – Dec 2022), I developed Single Page Applications (SPAs) using React, incorporating HTML and CSS to create dynamic and responsive user interfaces focusing on optimizing the user experience and performance, ensuring high-quality web applications.I led the development of MVC applications using Spring Boot and AWS, designed complex SQL queries, and implemented CI/CD pipelines with GitHub and Jenkins.</p>
         <span className='left-arrow'></span>
       </div>
     </div>
     <div className=" container right">
-    <img src="./work.png" alt="work iocon" />
+    <img src="./work.png" alt="work icon" />
       <div className="content">
-        <h2>2019</h2>
-        <p>Promoted to Developer at XYZ Company. Led a team to develop a web application that increased user engagement by 20%.</p>
+      <h2>Infosys Ltd.</h2>
+      <small>2018-2019</small>
+        <p>As a Software Developer Intern at Infosys, I utilized HTML and CSS along with JavaScript and AJAX to design and build a web application for Exam Monitor. This project involved creating intuitive and accessible web interfaces, enhancing the overall usability and functionality of the application.</p>
         <span className='right-arrow'></span>
       </div>
     </div>
     <div className="container left">
-    <img src="./project.png" alt="project iocon" />
+    <img src="./project.png" alt="project icon" />
       <div className="content">
-        <h2>2020</h2>
-        <p>Joined ABC Corp as a Senior Developer. Worked on cloud-based solutions and microservices architecture.</p>
+        <h2>TaskMaster To-Do App</h2>
+        <small>2019</small>
+        <p>
+        Developed TaskMaster, a responsive and user-friendly To-Do application. Leveraged CSS (45.8%) for styling and layout, JavaScript (40.1%) for task management and interactivity, and HTML (14.1%) for structuring content. The app allows users to efficiently add, edit, and delete tasks, enhancing productivity and organization.
+        </p>
         <span className='left-arrow'></span>
       </div>
     </div>
     <div className="container right">
-    <img src="./project.png" alt="project iocon" />
+    <img src="./project.png" alt="project icon" />
       <div className="content">
-        <h2>2021</h2>
-        <p>Started a major project on AI and machine learning which resulted in a successful product launch.</p>
+        <h2>TravelDjango (Python/Django)</h2>
+       <small>2024: Python, Django, JavaScript, MongoDB/MySQL, API, Git, Weather API</small>  
+        <p>A travel planning application that streamlines itinerary creation for tourists. Users can search destinations, receive real-time weather information, and build customized routes with various transportation options. </p>
         <span className='right-arrow'></span>
       </div>
     </div>
     <div className="container left">
-    <img src="./project.png" alt="project iocon" />
+    <img src="./project.png" alt="project icon" />
       <div className="content">
-        <h2>2022</h2>
-        <p>Worked on improving the performance of legacy systems, reducing the load time by 30%.</p>
+        <h2>GameMaster: A gamified task manager built in Next.js.</h2>
+        <small>2023: Node.js, React, TypeScript, MongoDB, GitHub Actions,HTML,CSS</small>
+    <p>Developed a full stack application enhancing user productivity through gamification. Designed and implemented user-friendly interfaces and interactive features.Optimized backend and frontend performance to ensure seamless user experiences.</p>
         <span className='left-arrow'></span>
       </div>
     </div>
     <div className="container right">
-    <img src="./project.png" alt="project iocon" />
+    <img src="./project.png" alt="project icon" />
       <div className="content">
-        <h2>2023</h2>
-        <p>Joined DEF Inc as a Lead Developer. Focused on innovative solutions and team leadership.</p>
-        <span className='right-arrow'></span>
+        <h2>CaptionIt - Cloud based AI Image Captioning web Application</h2>
+        <small>Pytorch, django, Azure</small>
+    <p>Generate Descriptive and meaningful descriptions for Images. Developed using pre trained ML model and python Django for web development on Azure.</p>
+         <span className='right-arrow'></span>
       </div>
     </div>
     <div className="container left">
-    <img src="./project.png" alt="project iocon" />
+    <img src="./education.png" alt="university icon" />
       <div className="content">
-        <h2>2024</h2>
-        <p>Continuing my journey at DEF Inc, working on cutting-edge technologies and mentoring junior developers.</p>
+        <h2>Sastra University</h2>
+        <small>2015-2019: Bachelor of Science in Information Technology</small>
+        <p>Relevent Coursework in Software development and design principles, web development, computer networking, programming languages</p>
         <span className='left-arrow'></span>
       </div>
     </div>
   </div>
-
       </main>
-      <footer className="App-footer"><h1>Footer</h1>
-      <a href="https://www.flaticon.com/free-icons/office" title="office icons">Office icons created by egorpolyakov - Flaticon</a>
+      <footer className="App-footer">
+        <div>
+        <h3>Contact</h3>
+        <h5>Nikhil Gangisetty</h5>
+        <a href="mailto:gangietty.nikhil@gmail.com" title="send email">gangietty.nikhil@gmail.com</a>
+        <p>+1 913-709-9391</p>
+        </div>
+        <div>
+          <h3>Address</h3>
+          <p>301 W Armour blvd</p>
+          <p>Kansas City, MO</p>
+        </div>
+        <div>
+        <p className='copyright'>&copy; <span id="currentYear"></span> Nikhil Gangisetty. All rights reserved.</p>
+        </div>
+        <div>
+          <h4>Credits</h4>
+        <a href="https://www.flaticon.com/" title="icons" className='credit'>icons created by egorpolyakov - Flaticon</a>
+        </div>
+        <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
       </footer>
     </div>
   );
 }
-
 export default App;

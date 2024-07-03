@@ -217,3 +217,29 @@ left: 55%;
   border-right: 15px solid blanchedalmond;
   left: -8px;
 }
+
+
+.App-footer {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.App-footer a {
+  color: white;
+  font-size: calc(5px + 2vmin);
+}
+.App-footer div {
+  padding: 20px 30px;
+  color: white;
+  text-align: left;
+  font-size: calc(5px + 2vmin);
+}
+
+
+
+.copyright {
+  top: 86%;
+  position: relative;
+}
