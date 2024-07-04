@@ -1,0 +1,32 @@
+.profile {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .profile-picture {
+    width: 266px;
+    height: 269px;
+    overflow: hidden;
+    border-radius: 50%; /* Makes it circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    margin-top: 2%;
+    margin-left: 42%;
+  }
+
+  .heading-name {
+    padding: 10px 15px;
+    margin: 0;
+    /*border: 1px solid #f17105;
+    font-size: x-large;*/
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+  } 

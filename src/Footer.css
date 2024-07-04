@@ -15,3 +15,7 @@
     text-align: left;
     font-size: calc(5px + 2vmin);
   }
+  .copyright {
+    top: 86%;
+    position: relative;
+  }
