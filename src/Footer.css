@@ -1,21 +1,45 @@
 .footer {
-    background-color: #282c34;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    display: flex;
-    flex-direction: row;
-  }
-.footer a {
-    color: white;
-    font-size: calc(5px + 2vmin);
-  }
-.footer div {
-    padding: 20px 30px;
-    color: white;
-    text-align: left;
-    font-size: calc(5px + 2vmin);
-  }
-  .copyright {
-    top: 86%;
-    position: relative;
-  }
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact, #address {
+  margin: 10px 0;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #005fcc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button.scroll-to-top {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #005fcc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button.scroll-to-top:hover {
+  background-color: #003f99;
+}
+
+button.scroll-to-top:focus {
+  outline: 3px solid #003f99;
+}
