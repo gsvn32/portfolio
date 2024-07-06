@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" modified="2024-07-05T23:53:06.154Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="8oG33E8q9IXtqVpVgD1b" version="24.6.4" type="github">
+  <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
+    <mxGraphModel dx="1674" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="VmRttg1r7KZNsslal5Uo-24" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#FAC5B2;" vertex="1" parent="1">
+          <mxGeometry x="484" y="1160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-22" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#FAC5B2;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="620" y="950" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-20" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#FAC5B2;" vertex="1" parent="1">
+          <mxGeometry x="486" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-1" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#222222;strokeColor=none;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="1150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-3" value="&lt;h2 id=&quot;experience-heading&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Experience&lt;/span&gt;&lt;/font&gt;&lt;/h2&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#000000;strokeColor=none;fontColor=#ffffff;spacingRight=30;whiteSpace=wrap;" parent="3d76a8aef4d5c911-1" vertex="1">
+          <mxGeometry x="330" y="-2" width="129.375" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-1" value="Projects" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#000000;strokeColor=none;fontColor=#ffffff;spacingRight=30;whiteSpace=wrap;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="462" width="129.375" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-2" value="Home" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#000000;strokeColor=none;fontColor=#ffffff;spacingRight=30;whiteSpace=wrap;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="200" width="129.375" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-3" value="Design Info" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#000000;strokeColor=none;fontColor=#ffffff;spacingRight=30;whiteSpace=wrap;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="594" width="129.375" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-4" value="Contact" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#000000;strokeColor=none;fontColor=#ffffff;spacingRight=30;whiteSpace=wrap;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="714" width="129.375" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-5" value="Address" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#000000;strokeColor=none;fontColor=#ffffff;spacingRight=30;whiteSpace=wrap;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="830" width="129.375" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-20" value="&lt;div align=&quot;center&quot;&gt;VENKATA NIKHIL GANGISETTY&lt;/div&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#dddddd;align=center;spacingLeft=10;fontSize=16;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="301" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-22" value="" style="shape=triangle;strokeColor=none;fillColor=#000000;direction=south;rounded=0;shadow=1;fontSize=12;fontColor=#000000;align=center;html=1;" parent="1" vertex="1">
+          <mxGeometry x="812" y="217" width="8" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-26" value="" style="shape=triangle;strokeColor=none;fillColor=#000000;direction=south;rounded=0;shadow=1;fontSize=12;fontColor=#000000;align=center;html=1;" parent="1" vertex="1">
+          <mxGeometry x="812" y="297" width="8" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-8" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.circle;strokeColor=#222222;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="524" y="140" width="136" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-9" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Summary&lt;/font&gt;&lt;/div&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#dddddd;align=center;spacingLeft=10;fontSize=16;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-10" value="" style="rounded=0;fillColor=#005fcc;strokeColor=none;html=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="950" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-12" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cert 1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="580" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cert 2&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="490" y="580" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-14" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cert 3&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="580" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-15" value="" style="rounded=0;fillColor=#04F06A;strokeColor=none;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="218" y="1069" width="758" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-19" value="Experience 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FAC5B2;" vertex="1" parent="1">
+          <mxGeometry x="293" y="737" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-21" value="Project 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FAC5B2;" vertex="1" parent="1">
+          <mxGeometry x="634" y="940" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-23" value="Education 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FAC5B2;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1142" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-25" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#cCCCcc;strokeColor=none;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#cCCCcc;align=center;" vertex="1" parent="1">
+          <mxGeometry x="64" y="1500" width="1150" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VmRttg1r7KZNsslal5Uo-32" value="Top" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;align=center;rSize=5;strokeColor=none;fillColor=#3D8BCD;fontColor=#ffffff;fontSize=16;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="524" y="1520" width="150" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div align=&quot;center&quot; id=&quot;contact&quot;&gt;&lt;h3&gt;Contact&lt;/h3&gt;&lt;h5&gt;Nikhil Gangisetty&lt;/h5&gt;&lt;a href=&quot;mailto:gangietty.nikhil@gmail.com&quot; title=&quot;send email&quot;&gt;gangietty.nikhil@gmail.com&lt;/a&gt;&lt;p&gt;+1 913-709-9391&lt;/p&gt;&lt;/div&gt;&lt;div align=&quot;center&quot; id=&quot;address&quot;&gt;&lt;h3&gt;Address&lt;/h3&gt;&lt;p&gt;301 W Armour Blvd&lt;/p&gt;&lt;p&gt;Kansas City, MO&lt;/p&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;p class=&quot;copyright&quot;&gt;© &lt;span id=&quot;currentYear&quot;&gt;2024&lt;/span&gt; Nikhil Gangisetty. All rights reserved. |&lt;a href=&quot;https://www.flaticon.com/&quot; title=&quot;icons&quot; class=&quot;credit&quot;&gt;Credits&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;" link="&lt;div id=&quot;contact&quot;&gt;&lt;h3&gt;Contact&lt;/h3&gt;&lt;h5&gt;Nikhil Gangisetty&lt;/h5&gt;&lt;a href=&quot;mailto:gangietty.nikhil@gmail.com&quot; title=&quot;send email&quot;&gt;gangietty.nikhil@gmail.com&lt;/a&gt;&lt;p&gt;+1 913-709-9391&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;address&quot;&gt;&lt;h3&gt;Address&lt;/h3&gt;&lt;p&gt;301 W Armour Blvd&lt;/p&gt;&lt;p&gt;Kansas City, MO&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;copyright&quot;&gt;© &lt;span id=&quot;currentYear&quot;&gt;2024&lt;/span&gt; Nikhil Gangisetty. All rights reserved. |&lt;a href=&quot;https://www.flaticon.com/&quot; title=&quot;icons&quot; class=&quot;credit&quot;&gt;Credits&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;" id="VmRttg1r7KZNsslal5Uo-33">
+          <mxCell style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+            <mxGeometry x="437" y="1590" width="320" height="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
