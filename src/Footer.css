@@ -1,21 +1,44 @@
 .footer {
-    background-color: #282c34;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    display: flex;
-    flex-direction: row;
-  }
-.footer a {
-    color: white;
-    font-size: calc(5px + 2vmin);
-  }
-.footer div {
-    padding: 20px 30px;
-    color: white;
-    text-align: left;
-    font-size: calc(5px + 2vmin);
-  }
-  .copyright {
-    top: 86%;
-    position: relative;
-  }
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.footer h3, .footer h5, .footer p, .footer a {
+  margin: 5px 0;
+}
+
+.footer .social-links {
+  margin-top: 10px;
+}
+
+.footer .social-links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.footer .social-links a:hover {
+  color: #0073b1; /* LinkedIn Blue */
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.scroll-to-top {
+  margin-top: 20px;
+  background-color: #0073b1; /* LinkedIn Blue */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.scroll-to-top:hover {
+  background-color: #005582;
+}
