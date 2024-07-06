@@ -38,9 +38,12 @@ function Profile() {
                 onFocus={handleFocus}
                 onBlur={handleBlur}
                 tabIndex={0}
-                aria-label="Certifications: User Experience Design, Accessibility (WCAG 2.2), Drupal module development"
+                aria-label="Certifications"
             >
-                Certifications: User Experience Design, Accessibility (WCAG 2.2), Drupal module development
+               <div className="card" tabIndex={0} aria-label="Certification: User Experience Design"><span className="card-content">User Experience Design & User Interface Design Fundamentals - Udemy</span></div>
+               <div className="card" tabIndex={0} aria-label="Certification: Drupal module development"><span className="card-content">Drupal 8 & 9 module development: start with custom entities -Udemy</span></div>
+               <div className="card" tabIndex={0} aria-label="Certification: Accessibility (WCAG 2.2)"><span className="card-content">How To Design for Accessibility: for UX Designers (WCAG 2.2) -Udemy</span></div>
+                
             </div>
         </header>
     );

@@ -27,7 +27,7 @@
 }
 
 .certification-banner {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 100%;
   white-space: nowrap;
@@ -35,8 +35,34 @@
   background-color: #005fcc;
   color: white;
   font-size: 1em;
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left 25s linear infinite;
   width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+/* .certification-banner span {
+  padding: 10px 20px;
+  margin: 20px 50px;
+  display: inline-block;
+  top: inherit;
+  position: relative;
+} */
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.card-content {
+  font-size: 1em;
+  color: #333;
 }
 
 .certification-banner.paused {

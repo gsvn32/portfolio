@@ -15,6 +15,7 @@ function Footer() {
 
     return (
         <footer className="footer">
+             <button onClick={scrollToTop} className="scroll-to-top" aria-label="Scroll to top">Top</button>
             <div id='contact'>
                 <h3>Contact</h3>
                 <h5>Nikhil Gangisetty</h5>
@@ -32,7 +33,7 @@ function Footer() {
                     <a href="https://www.flaticon.com/" title="icons" className='credit'>Credits</a>
                 </p>
             </div>
-            <button onClick={scrollToTop} className="scroll-to-top" aria-label="Scroll to top">Top</button>
+           
         </footer>
     );
 }
